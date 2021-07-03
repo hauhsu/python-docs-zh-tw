@@ -29,7 +29,7 @@ jobs:
       # Checks-out cpython
       - uses: actions/checkout@v2
         with:
-          name: python/cpython
+          repository: python/cpython
           ref: 3.9
           path: cpython
 
