@@ -23,7 +23,7 @@ VENV := ~/.venvs/python-docs-i18n/
 PYTHON := $(shell which python3)
 MODE := autobuild-dev-html
 BRANCH = $(shell git describe --contains --all HEAD)
-JOBS = 4
+JOBS = 1
 
 
 .PHONY: all
